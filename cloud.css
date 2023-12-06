@@ -1,0 +1,233 @@
+.headtag{
+    height: 100px;
+    background-color:rgb(17, 17, 17);
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+
+.logo{
+   
+   margin-left: 100px;
+   padding: 30px;
+   width: 400px;
+   color: white;
+   font-size: 30px;
+   display: flex;
+   flex-wrap: nowrap;
+ 
+}
+
+.l2{
+    
+    margin-left: 50px;
+   
+}
+.search{
+    
+    
+    display: flex;
+    flex-wrap: nowrap;
+    height: 40px; 
+    width: 400px;
+    justify-content:space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding-left: 10px;
+}
+
+.search input{
+    font-size: 20px;
+    background-color:rgb(17, 17, 17);
+    text-overflow: ellipsis;
+    border: 1px;
+    color: white;
+    
+}
+
+.endtag{
+    
+    padding: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.headbottom{
+    height: 50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid gray;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Cinzel&family=Playball&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+.colbottom{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    flex-wrap: nowrap;
+    font-family: 'Playball', cursive;
+
+}
+
+
+.imageblock{
+    height: 285px;
+    background-color:black;
+    padding-top: 60px;
+    padding-bottom: 0px;
+   
+}
+.imgbg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    flex-wrap: nowrap;
+    
+}
+.imgbg img{
+    border-radius: 10px;
+  width: 300px; 
+  height:150px;  
+} 
+
+.n1{
+    font-size: 30px;
+}
+
+.newrelease{
+   
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+.n1{
+    padding-left: 60px;
+    color: white;
+}
+.n2{
+    padding-right: 100px;
+    color: blue;
+}
+.n1:hover{
+    color: blue;
+}
+
+.colbottom .c:hover{
+      color: blue;
+}
+
+.r1{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-top: 10px;
+
+}
+.row{
+    height: 300px;
+    font-size: 15px;
+ }
+ .row img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.r1 p{
+     color: white;
+}
+
+
+footer{
+    background-color: rgb(17, 17, 17);
+    padding: 0;
+}
+footer span{
+    padding: 20px;
+    height: 100px;
+    color: white;
+    padding-bottom: 0px;
+    text-align: center;
+}
+span pre{
+    margin-top: 50px;
+}
+@media (max-width:1200px){
+    .s3,.s4,.s5,.s6,.s7{
+        display: none;
+    }
+    
+    .search{
+        display: none;
+    }
+    .logo{
+        
+        margin-left: 50px;
+        flex-wrap: nowrap;
+    }
+    .imgbg .i2,.i3{
+        display: none;
+    }
+    .r1 .r4 ,.r5,.r6{
+        display: none;
+    }
+    .colbottom{
+        font-size: 10px;
+    }
+
+}
+@media(max-width:500px){
+       .l2{
+        font-size: large;
+        padding: 0;
+       }
+       
+       .endtag{
+        float: inline-end;
+        flex-wrap: nowrap;
+       }
+       
+       .r1 .r3{
+        display: none;
+    }
+       
+       .imgbg .i3{
+        display: none;
+
+       }
+       .n1{
+        padding-left: 0px;
+       }
+       .c .c2,.c3,.c7,.c8{
+        display: none;
+       }
+       
+      
+}
+
+
